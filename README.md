@@ -4,8 +4,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/github-warmer.git
-cd github-warmer
+git clone https://github.com/your-username/github-hero.git
+cd github-hero
 
 # Install dependencies
 pip3 install -r requirements.txt
@@ -28,7 +28,7 @@ nano config.json
 ### 3. Usage
 
 ```bash
-python3 github_warmer.py
+python3 github_hero.py
 ```
 
 ## 📋 Configuration
@@ -57,7 +57,7 @@ Create a `config.json` file with your GitHub credentials:
 Creates backdated commits for 2023-2025 to show long-term activity.
 
 ```bash
-python3 github_warmer.py
+python3 github_hero.py
 # Select option 1
 ```
 
@@ -65,7 +65,7 @@ python3 github_warmer.py
 Generates Pull Requests and Issues with realistic content.
 
 ```bash
-python3 github_warmer.py
+python3 github_hero.py
 # Select option 2
 ```
 
@@ -73,7 +73,7 @@ python3 github_warmer.py
 Makes random daily commits to keep your profile active.
 
 ```bash
-python3 github_warmer.py
+python3 github_hero.py
 # Select option 3
 ```
 
@@ -81,7 +81,7 @@ python3 github_warmer.py
 Creates maximum activity with lots of PRs and Issues.
 
 ```bash
-python3 github_warmer.py
+python3 github_hero.py
 # Select option 4
 ```
 
@@ -89,7 +89,7 @@ python3 github_warmer.py
 Runs all modes sequentially for complete activity generation.
 
 ```bash
-python3 github_warmer.py
+python3 github_hero.py
 # Select option 5
 ```
 
@@ -146,22 +146,6 @@ python3 github_warmer.py
 - **Error Handling** - Graceful failure with detailed error messages
 
 
-
-```bash
-# Fork the repository
-git clone https://github.com/your-username/github-warmer.git
-cd github-warmer
-
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Make your changes and test
-python3 github_warmer.py
-```
 
 ## 📄 License
 
