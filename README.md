@@ -1,18 +1,3 @@
-# 🔥 GitHub Warmer
-
-**Universal GitHub Activity Generator**
-
-A comprehensive Python tool to generate realistic GitHub activity including historical commits, Pull Requests, Issues, and daily changes. Perfect for maintaining an active GitHub profile or demonstrating consistent development activity.
-
-## ✨ Features
-
-- 🕰️ **Historical Commits** - Create backdated commits for 2023-2025
-- 🚀 **Pull Requests** - Generate realistic PRs with code and descriptions
-- 📝 **Issues** - Create bug reports and feature requests
-- 📅 **Daily Changes** - Make random daily commits
-- 🎯 **Mass Activity** - Create maximum GitHub activity
-- 🔧 **Easy Setup** - Simple configuration and usage
-
 ## 🚀 Quick Start
 
 ### 1. Installation
@@ -160,20 +145,7 @@ python3 github_warmer.py
 - **Rate Limiting** - Respects GitHub API limits
 - **Error Handling** - Graceful failure with detailed error messages
 
-## 📈 Results
 
-After running GitHub Warmer, your profile will show:
-
-- 🟢 **Consistent Activity** - Regular commits over multiple years
-- 🚀 **Professional PRs** - Well-documented pull requests
-- 📝 **Realistic Issues** - Bug reports and feature requests
-- 📊 **Active Contribution Graph** - Fully green GitHub calendar
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-### Development Setup
 
 ```bash
 # Fork the repository
@@ -207,66 +179,3 @@ If you encounter any issues:
 2. Ensure your repositories exist and are accessible
 3. Verify your internet connection
 4. Check the error messages for specific issues
-
-## 🌟 Features in Detail
-
-### Smart Branch Detection
-Automatically detects whether your repository uses `main` or `master` as the default branch.
-
-### Realistic Content Generation
-- Professional commit messages
-- Detailed PR descriptions
-- Comprehensive issue reports
-- Contextual code changes
-
-### Error Recovery
-- Graceful handling of API errors
-- Automatic retry mechanisms
-- Detailed error reporting
-- Safe failure modes
-
-### Customizable Activity
-- Adjustable commit frequency
-- Configurable repository selection
-- Multiple activity modes
-- Flexible scheduling
-
-## 📊 Example Output
-
-```
-🔥 GitHub Warmer - Universal GitHub Activity Generator
-============================================================
-
-Available modes:
-1. Historical Commits - Create backdated commits for 2023-2025
-2. PR & Issues - Create Pull Requests and Issues
-3. Daily Change - Create daily random changes
-4. Mass Activity - Create maximum activity
-5. All Modes - Run all modes sequentially
-
-Select mode (1-5): 2
-
-🔥 PR & Issues Mode
-Creating Pull Requests and Issues...
-
-🔥 Creating Pull Request for Schedule
-----------------------------------------
-✅ Branch pr-20250102120000 created
-✅ File src/feature_20250102.py created
-✅ Pull Request created: Add new feature: user authentication
-   🔗 URL: https://github.com/username/Schedule/pull/1
-✅ Pull Request #1 merged
-
-🔥 Creating Issue for Schedule
-----------------------------------------
-✅ Issue created: Bug: UI not responsive on mobile
-   🔗 URL: https://github.com/username/Schedule/issues/1
-✅ Issue #1 closed
-
-🎉 GitHub Warmer completed successfully!
-📊 Check your GitHub profile for the new activity!
-```
-
----
-
-**Made with ❤️ for the GitHub community**
